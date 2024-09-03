@@ -5,49 +5,49 @@ Features
 Load and preprocess movie data
 Build and train a recommendation model
 Generate movie recommendations for users
-Visualize the distribution of ratings
-Prerequisites
-Python Libraries: pandas, scikit-learn, surprise, matplotlib
+Visualize the distribution of ratings.
+
+
+Python Libraries: pandas, scikit-learn, surprise, matplotlib.
+
 Installation
 Clone the Repository
+git clone https://github.com/rohan-bc/ML-PROJECTS.git.
 
-bash
-Copy code
-git clone https://github.com/rohan-bc/ML-PROJECTS.git
-Install Required Libraries
+Install Required Libraries.
 
 Ensure you have pip installed, then run:
+pip install pandas scikit-learn surprise matplotlib.
 
-bash
-Copy code
-pip install pandas scikit-learn surprise matplotlib
 Download Datasets
-
 Download the ratings.csv and movies.csv files from MovieLens and place them in the project directory.
 
-Prepare Data
+Prepare Data : 
 Ensure that ratings.csv and movies.csv are in the same directory as movie_recommender.py.
 
-Run the Script
+Run the Script 
 Execute the script using:
 
-python movie_recommender.py
+python movier.py
+
 View Results
+
 The script will output the distribution of ratings as a histogram.
 It will also print movie recommendations for a specific user (user ID 1 in this example). You can change the user_id variable in the script to test other users.
+
 Code Explanation
 Data Handling:
-
 load_data(): Loads the ratings and movie data from CSV files.
 plot_ratings_distribution(): Visualizes the distribution of ratings.
+
 Model Building:
-
 build_model(): Creates and trains an SVD model for collaborative filtering using the surprise library.
+
 Recommendation Generation:
-
 recommend_movies(): Generates and sorts movie recommendations based on predicted ratings.
-Main Function:
 
+Main Function:
 The main() function orchestrates data loading, model training, and recommendation generation.
 Contributing
+
 Feel free to fork the repository and submit pull requests. For any issues or feature requests, open an issue on GitHub.
