@@ -14,8 +14,7 @@ Libraries : pandas, scikit-learn, surprise, matplotlib
 Installation
 Clone the Repository
 
-git clone https://github.com/rohan-bc/ML-PROJECTS/movie.git
-cd movie
+git clone https://github.com/rohan-bc/ML-PROJECTS.git
 Install Required Libraries
 
 Ensure you have pip installed, then run:
